@@ -1,13 +1,11 @@
 import "./App.css";
+import UserCard from "./components/UserCard";
 
 const App = () => {
   return (
     <>
-      <div className="card">
-        <img src="./avatar.webp" alt="avatar" />
-        <h2>sinjwu</h2>
-        <h2>Programmer</h2>
-      </div>
+      <UserCard name="sinjwu" job="Programmer" imageSrc="avatar.webp" />
+      <UserCard name="신정욱" job="자택경비원" imageSrc="avatar2.webp" />
     </>
   );
 };
